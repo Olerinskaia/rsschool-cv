@@ -1,6 +1,6 @@
 # **Олеринская Надежда**
 
-Junior Frontend Developer
+## Junior Frontend Developer
 
 г. Санкт-Петербург\
 +7 951 668 81 22\
@@ -8,29 +8,29 @@ Junior Frontend Developer
 
 ## Обо мне
 
-Нахожусь в поиске позиций по направлению фронтенд-разработки. Ищу перспективную компанию, в которой смогу вырасти до высококвалифицированного специалиста.
+<p>   Нахожусь в поиске позиций по направлению фронтенд-разработки. Ищу перспективную компанию, в которой смогу вырасти до высококвалифицированного специалиста. На данный момент активно изучаю и развиваюсь в данном направлении
 
-Активно изучаю и развиваюсь в данном направлении
+Мой гитхаб аккаунт: <https://github.com/Olerinskaia>
 
-(Мой гитхаб аккаунт:)[https://github.com/Olerinskaia]
+Мой codewars: <https://www.codewars.com/users/Nadia%20Olerinskaia>
 
-(Мой codewars:)[https://www.codewars.com/users/Nadia%20Olerinskaia]
+</p>
 
 ## Ключевые навыки
 
-> - Html
-> - Css
-> - Sass
-> - JavaScript
-> - Git
-> - Figma
-> - Jira
-> - Postman
+- Html
+- Css
+- Sass
+- JavaScript
+- Git
+- Figma
+- Jira
+- Postman
 
 ## Языки
 
-> Русский
-> Английский
+- Русский
+- Английский
 
 ## Образование
 
