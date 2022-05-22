@@ -9,8 +9,9 @@
 ## Обо мне
 
 Нахожусь в поиске позиций по направлению фронтенд-разработки. Ищу перспективную компанию, в которой смогу вырости до высококвалифицированного специалиста. На данный момент активно изучаю и развиваюсь в данном направлении\
-Мой гитхаб аккаунт: https://github.com/Olerinskaia\
-Мой codewars: https://www.codewars.com/users/Nadia%20Olerinskaia
+
+- Мой гитхаб аккаунт: <https://github.com/Olerinskaia>
+- Мой codewars: <https://www.codewars.com/users/Nadia%20Olerinskaia>
 
 ## Ключевые навыки
 
