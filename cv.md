@@ -6,6 +6,16 @@ Junior Frontend Developer
 +7 951 668 81 22\
 <olerinskaia.work@gmail.com>
 
+## Обо мне
+
+Нахожусь в поиске позиций по направлению фронтенд-разработки. Ищу перспективную компанию, в которой смогу вырасти до высококвалифицированного специалиста.
+
+Активно изучаю и развиваюсь в данном направлении
+
+(Мой гитхаб аккаунт:)[https://github.com/Olerinskaia]
+
+(Мой codewars:)[https://www.codewars.com/users/Nadia%20Olerinskaia]
+
 ## Ключевые навыки
 
 > - Html
@@ -19,11 +29,12 @@ Junior Frontend Developer
 
 ## Языки
 
-> Русский Английский
+> Русский
+> Английский
 
 ## Образование
 
-The Rolling Scopes (в процессе)\
+The Rolling Scopes School (в процессе)\
 _Junior Software Engineer в области JavaScript/Front-end._
 
 Санкт-Петербургский Государственный Университет\
