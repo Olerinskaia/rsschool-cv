@@ -1,1 +1,1 @@
-https:/Olerinskaia.github.io/rsschool-cv/cv
+[https:/Olerinskaia.github.io/rsschool-cv/cv]
