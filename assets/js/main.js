@@ -43,4 +43,3 @@ window.addEventListener('scroll', scrollActive);
 /*REDUCE THE SIZE AND PRINT ON AN 4A SHEET*/
 
 /*REMOVE THE SIZE WHEN THE CV IZ DOWNLOADED*/
-console.log('dsffs');
