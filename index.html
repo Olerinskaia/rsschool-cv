@@ -4,8 +4,143 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Olerinskaia</title>
   </head>
-  <body></body>
+  <body>
+    <!-- HEADER -->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">Olerinskaia</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="bx bx-home nav__icon"></i>Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#profile" class="nav__link">
+                <i class="bx bx-user nav__icon"></i>Profiles
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#education" class="nav__link">
+                <i class="bx bx-book-bookmark nav__icon"></i>Education
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-receipt nav__icon"></i>Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#experience" class="nav__link">
+                <i class="bx bx-briefcase nav__icon"></i>Experience
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#certificates" class="nav__link">
+                <i class="bx bx-award nav__icon"></i>Certificates
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#references" class="nav__link">
+                <i class="bx bx-link-external nav__icon"></i>References
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+    <main class="l-main bd-container">
+      <!-- All elements within this div, is generated in PDF -->
+      <div class="resume">
+        <div class="resume__left">
+          <!-- Home -->
+          <section class="home" id="home">
+            <div class="home__container section bd-grid">
+              <div class="home__data bd-grid">
+                <img src="./assets/img/3.JPG" alt="photo" class="home__img" />
+                <h1 class="home__title">Nadia <b>Olerinskaia</b></h1>
+                <h3 class="home__profession">Junior Frontend Developer</h3>
+                <!-- Button to download your CV saved in the PDF folder. Available for mobile -->
+                <div>
+                  <a
+                    download=""
+                    href="./assets/pdf/ResumeCv.pdf"
+                    class="home__button-movil"
+                    >Download</a
+                  >
+                </div>
+              </div>
+              <div class="home__address bd-grid">
+                <span class="home__information">
+                  <i class="bx bx-map home__icon"></i> Saint-Petersburg
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-envelope home__icon"></i>
+                  olerinskaia.work@gmail.com
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-phone home__icon"></i> +79516688122
+                </span>
+              </div>
+            </div>
+          </section>
+          <!-- Them change button -->
+
+          <!-- Button to download your CV saved in the PDF folder. Available for desktop -->
+
+          <!-- SOCIAL -->
+          <section class="social section">
+            <h2 class="section-title">SOCIAL</h2>
+            <div class="social__container bd-grid">
+              <a
+                href="https://t.me/Olerinskaya"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-telegram social__icon"></i> @Olerinskaya
+              </a>
+              <a
+                href="https://www.linkedin.com/in/nadezhda-olerinskaya-959468162/"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-linkedin-square social__icon"></i> Olerinskaya
+              </a>
+            </div>
+          </section>
+          <!-- PROFILE -->
+
+          <!-- EDUCATION -->
+
+          <!-- SKILLS -->
+        </div>
+        <div class="resume__right">
+          <!-- EXPERIANCE -->
+
+          <!-- CERTIFICATES -->
+
+          <!-- REFERENCES -->
+
+          <!-- LANGUAGES -->
+
+          <!-- INTERESTS -->
+        </div>
+      </div>
+    </main>
+    <!-- SCROLL TOP -->
+
+    <!-- HTML2PDF -->
+    <script src="./assets/js/main.js"></script>
+  </body>
 </html>
