@@ -9,7 +9,7 @@
       href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Olerinskaia</title>
+    <title>Olerinskaia CV</title>
   </head>
   <body>
     <!-- HEADER -->
@@ -62,7 +62,7 @@
     </header>
     <main class="l-main bd-container">
       <!-- All elements within this div, is generated in PDF -->
-      <div class="resume">
+      <div class="resume" id="area-cv">
         <div class="resume__left">
           <!-- Home -->
           <section class="home" id="home">
@@ -101,6 +101,11 @@
               id="theme-button"
             ></i>
             <!-- Button to download your CV saved in the PDF folder. Available for desktop -->
+            <i
+              class="bx bx-download generate-pdf"
+              title="Generate PDF"
+              id="resume-button"
+            ></i>
           </section>
 
           <!-- SOCIAL -->
@@ -286,7 +291,7 @@
               </div>
               <div class="interests__content">
                 <i class="bx bx-trip interests__icon"></i>
-                <span class="interest__name">Riding electric unicycle</span>
+                <span class="interest__name">Electric unicycle</span>
               </div>
             </div>
           </section>
@@ -298,6 +303,7 @@
       <i class="bx bx-chevron-up scrolltop__icon"></i>
     </a>
     <!-- HTML2PDF -->
+    <script src="./assets/js/html2pdf.bundle.min.js"></script>
     <script src="./assets/js/main.js"></script>
   </body>
 </html>
