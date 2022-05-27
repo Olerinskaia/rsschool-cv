@@ -48,11 +48,11 @@
                 <i class="bx bx-award nav__icon"></i>Certificates
               </a>
             </li>
-            <li class="nav__item">
+            <!-- <li class="nav__item">
               <a href="#references" class="nav__link">
                 <i class="bx bx-link-external nav__icon"></i>References
               </a>
-            </li>
+            </li> -->
           </ul>
         </div>
         <div class="nav__toggle" id="nav-toggle">
@@ -94,10 +94,14 @@
                 </span>
               </div>
             </div>
+            <!-- Them change button -->
+            <i
+              class="bx bx-moon change-theme"
+              title="Theme"
+              id="theme-button"
+            ></i>
+            <!-- Button to download your CV saved in the PDF folder. Available for desktop -->
           </section>
-          <!-- Them change button -->
-
-          <!-- Button to download your CV saved in the PDF folder. Available for desktop -->
 
           <!-- SOCIAL -->
           <section class="social section">
@@ -119,16 +123,7 @@
               </a>
             </div>
           </section>
-          <!-- PROFILE -->
-          <section class="profile section" id="profile">
-            <h2 class="section-title">Profile</h2>
-            <p class="profile__description">
-              I am looking for positions in front-end development. seeking a
-              promising company in which I can grow up to highly qualified
-              specialist. Currently active I study and develop in this
-              direction.
-            </p>
-          </section>
+
           <!-- EDUCATION -->
           <section class="education section" id="education">
             <h2 class="section-title">Education</h2>
@@ -195,6 +190,17 @@
           </section>
         </div>
         <div class="resume__right">
+          <!-- PROFILE -->
+          <section class="profile section" id="profile">
+            <h2 class="section-title">Profile</h2>
+            <p class="profile__description">
+              I am looking for positions in front-end development. seeking a
+              promising company in which I can grow up to highly qualified
+              specialist. Currently active I study and develop in this
+              direction.
+            </p>
+          </section>
+
           <!-- EXPERIENCE -->
           <section class="experience section" id="experience">
             <h2 class="section-title">Experience</h2>
@@ -249,8 +255,8 @@
           <!-- LANGUAGES -->
           <section class="languages section">
             <h2 class="section-title">Languages</h2>
-            <div class="languages__container">
-              <ul class="languages__content bd-grid">
+            <div class="languages__container bd-grid">
+              <ul class="languages__content">
                 <li class="languages__name">
                   <span class="languages__circle"></span>Russian - native
                   speaker
@@ -263,11 +269,34 @@
             </div>
           </section>
           <!-- INTERESTS -->
+          <section class="interests section">
+            <h2 class="section-title">Interests</h2>
+            <div class="interests__conteiner bd-grid">
+              <div class="interests__content">
+                <i class="bx bxs-tree interests__icon"></i>
+                <span class="interest__name">Walking</span>
+              </div>
+              <div class="interests__content">
+                <i class="bx bxs-joystick interests__icon"></i>
+                <span class="interest__name">Gaming</span>
+              </div>
+              <div class="interests__content">
+                <i class="bx bxs-book-alt interests__icon"></i>
+                <span class="interest__name">Reading</span>
+              </div>
+              <div class="interests__content">
+                <i class="bx bx-trip interests__icon"></i>
+                <span class="interest__name">Riding electric unicycle</span>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
     </main>
     <!-- SCROLL TOP -->
-
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-chevron-up scrolltop__icon"></i>
+    </a>
     <!-- HTML2PDF -->
     <script src="./assets/js/main.js"></script>
   </body>
