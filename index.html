@@ -107,7 +107,6 @@
               id="resume-button"
             ></i>
           </section>
-
           <!-- SOCIAL -->
           <section class="social section">
             <h2 class="section-title">SOCIAL</h2>
@@ -128,7 +127,6 @@
               </a>
             </div>
           </section>
-
           <!-- EDUCATION -->
           <section class="education section" id="education">
             <h2 class="section-title">Education</h2>
@@ -179,7 +177,6 @@
                   <span class="skills__circle"></span> JavaScript
                 </li>
               </ul>
-
               <ul class="skills__data">
                 <li class="skills__name">
                   <span class="skills__circle"></span> Git
@@ -205,7 +202,6 @@
               direction.
             </p>
           </section>
-
           <!-- EXPERIENCE -->
           <section class="experience section" id="experience">
             <h2 class="section-title">Experience</h2>
@@ -256,7 +252,6 @@
             </div>
           </section>
           <!-- REFERENCES -->
-
           <!-- LANGUAGES -->
           <section class="languages section">
             <h2 class="section-title">Languages</h2>
@@ -271,6 +266,28 @@
                   process..)
                 </li>
               </ul>
+            </div>
+          </section>
+          <!-- CODE EXAMPLE -->
+          <section class="code section" id="code">
+            <h2 class="section-title">Code example</h2>
+            <div class="code__container bd-grid">
+              <div class="code__content">
+                <pre>
+function getSumOfDigits(number) {
+  let sumNumbers = 0;
+  let numberString = String(number);
+  for (i = 0; i &lt; numberString.length; i++) {
+    sumNumbers += +numberString[i];
+    }
+  while (sumNumbers &gt; 9) {
+    sumNumbers = getSumOfDigits(sumNumbers);
+  }
+  return sumNumbers;
+}
+                  </pre
+                >
+              </div>
             </div>
           </section>
           <!-- INTERESTS -->
@@ -299,6 +316,31 @@
       </div>
     </main>
     <!-- SCROLL TOP -->
+    <!-- FOOTER -->
+    <footer class="footer section bd-container">
+      <div class="footer__container bd-grid">
+        <ul class="footer__links">
+          <li class="footer__link">
+            <a
+              href="https://github.com/Olerinskaia?tab=repositories"
+              target="_blank"
+              ><img
+                class="footer__logo-git"
+                src="./assets/img/github.svg"
+                alt="link to github"
+            /></a>
+          </li>
+          <li class="footer__link">
+            <a href="https://rs.school/js/" target="_blank"
+              ><img
+                class="footer__logo-rs"
+                src="./assets/img/rs_school_js.svg"
+                alt="link to rs school"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
     <a href="#" class="scrolltop" id="scroll-top">
       <i class="bx bx-chevron-up scrolltop__icon"></i>
     </a>
