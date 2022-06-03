@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-=======
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap');
->>>>>>> 9deae1b483d8c28dc158f7a57246e5513a3ea34d
 :root {
   --header-height: 3rem;
 
@@ -15,11 +11,7 @@
   --body-color: #fcfcfc;
 
   /*Fonts*/
-<<<<<<< HEAD
   --body-font: 'Roboto', sans-serif;
-=======
-  --body-font: 'Quicksand', sans-serif;
->>>>>>> 9deae1b483d8c28dc158f7a57246e5513a3ea34d
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1rem;
@@ -28,11 +20,7 @@
   --smaller-font-size: 0.813rem;
 
   --font-medium: 500;
-<<<<<<< HEAD
   --font-semi-bold: 700;
-=======
-  --font-semi-bold: 600;
->>>>>>> 9deae1b483d8c28dc158f7a57246e5513a3ea34d
 
   /*Margenes*/
   --mb-1: 0.5rem;
@@ -51,7 +39,6 @@
 html {
   scroll-behavior: smooth;
 }
-<<<<<<< HEAD
 /*Variables Dark theme*/
 body.dark-theme {
   --title-color: #f2f2f2;
@@ -166,15 +153,6 @@ body.scale-cv {
 .scale-cv .interests__conteiner {
   column-gap: 2.5rem;
 }
-=======
-/*Button Dark/Light*/
-
-/*Font size variables to scale cv*/
-
-/*Generate PDF button*/
-
-/*Classes modified to reduce size and print on A4 sheet*/
->>>>>>> 9deae1b483d8c28dc158f7a57246e5513a3ea34d
 body {
   margin: 0 0 var(--header-height) 0;
   padding: 0;
@@ -225,11 +203,7 @@ img {
 /*LAYOUT*/
 .bd-container {
   max-width: 968px;
-<<<<<<< HEAD
-  width: calc(100% - 3rem);
-=======
   width: calc(100%-3rem);
->>>>>>> 9deae1b483d8c28dc158f7a57246e5513a3ea34d
   margin-left: var(--mb-3);
   margin-right: var(--mb-3);
 }
@@ -245,10 +219,7 @@ img {
   z-index: var(--z-fixed);
   background-color: var(--body-color);
   box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.1);
-<<<<<<< HEAD
   transition: 0.3s;
-=======
->>>>>>> 9deae1b483d8c28dc158f7a57246e5513a3ea34d
 }
 /*NAV*/
 .nav {
@@ -266,10 +237,7 @@ img {
     padding: 2rem 1.5rem;
     background-color: var(--body-color);
     box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.1);
-<<<<<<< HEAD
     border-radius: 1rem 1rem 0 0;
-=======
->>>>>>> 9deae1b483d8c28dc158f7a57246e5513a3ea34d
     z-index: var(--z-fixed);
     transition: 0.3s;
   }
@@ -384,7 +352,6 @@ img {
   margin-right: 0.25rem;
 }
 /* PROFILE */
-<<<<<<< HEAD
 .profile__description {
   text-align: center;
 }
@@ -588,11 +555,3 @@ pre {
     column-gap: 3.5rem;
   }
 }
-=======
-
-/* EDUCATION AND EXPERIENCE */
-
-/* SKILLS AND LANGUAGE */
-
-/* CERTIFICATES */
->>>>>>> 9deae1b483d8c28dc158f7a57246e5513a3ea34d
