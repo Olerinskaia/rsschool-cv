@@ -31,13 +31,18 @@ function scrollActive() {
     } else {
       document
         .querySelector('.nav__menu a[href*=' + sectionId + ']')
+<<<<<<< HEAD
         .classList.remove('active-link');
+=======
+        .classList.add('active-link');
+>>>>>>> 9deae1b483d8c28dc158f7a57246e5513a3ea34d
     }
   });
 }
 window.addEventListener('scroll', scrollActive);
 /*SHOW SCROLL TOP*/
 
+<<<<<<< HEAD
 function scrollTop() {
   const scrollTop = document.getElementById('scroll-top');
   if (this.scrollY >= 200) {
@@ -101,3 +106,11 @@ resumeButton.addEventListener('click', () => {
   generateResume();
   setTimeout(removeScale, 5000);
 });
+=======
+/*DARK LIGHT THEME */
+
+/*REDUCE THE SIZE AND PRINT ON AN 4A SHEET*/
+
+/*REMOVE THE SIZE WHEN THE CV IZ DOWNLOADED*/
+console.log('dsffs');
+>>>>>>> 9deae1b483d8c28dc158f7a57246e5513a3ea34d
