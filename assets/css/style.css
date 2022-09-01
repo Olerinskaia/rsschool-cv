@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 :root {
   --header-height: 3rem;
 
@@ -11,7 +11,7 @@
   --body-color: #fcfcfc;
 
   /*Fonts*/
-  --body-font: 'Quicksand', sans-serif;
+  --body-font: 'Roboto', sans-serif;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1rem;
@@ -20,7 +20,7 @@
   --smaller-font-size: 0.813rem;
 
   --font-medium: 500;
-  --font-semi-bold: 600;
+  --font-semi-bold: 700;
 
   /*Margenes*/
   --mb-1: 0.5rem;
