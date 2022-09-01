@@ -41,6 +41,7 @@ window.addEventListener('scroll', scrollActive);
 function scrollTop() {
   const scrollTop = document.getElementById('scroll-top');
   if (this.scrollY >= 200) {
+    scrollTop.classList.add('show-scroll');
   } else {
     scrollTop.classList.remove('show-scroll');
   }
@@ -79,6 +80,15 @@ function scaleCV() {
 function removeScale() {
   document.body.classList.remove('scale-cv');
 }
+
+/*REDUCE THE SIZE AND PRINT ON AN 4A SHEET*/
+function scaleCV() {
+  document.body.classList.add('scale-cv');
+}
+/*REMOVE THE SIZE WHEN THE CV IZ DOWNLOADED*/
+function removeScale() {
+  document.body.classList.remove('scale-cv');
+}
 /*GENERATE PDF*/
 let areaCv = document.getElementById('area-cv');
 let resumeButton = document.getElementById('resume-button');
@@ -100,7 +110,3 @@ resumeButton.addEventListener('click', () => {
   generateResume();
   setTimeout(removeScale, 5000);
 });
-
-/*DARK LIGHT THEME */
-
-/*REDUCE THE SIZE AND PRINT ON AN 4A SHEET*/
