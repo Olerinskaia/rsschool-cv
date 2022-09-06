@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    >
+    <link rel="stylesheet" href="./assets/css/style.css" >
+    <title>Olerinskaia CV</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" aria-label="Olerinskaiya" class="nav__logo">Olerinskaia</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" aria-label="link home" class="nav__link active-link">
+                <i class="bx bx-home nav__icon"></i>Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#profile" aria-label="link portfolio" class="nav__link">
+                <i class="bx bx-user nav__icon"></i>Profiles
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#education" aria-label="link education" class="nav__link">
+                <i class="bx bx-book-bookmark nav__icon"></i>Education
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" aria-label="link skills" class="nav__link">
+                <i class="bx bx-receipt nav__icon"></i>Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#experience" aria-label="link experience" class="nav__link">
+                <i class="bx bx-briefcase nav__icon"></i>Experience
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#certificates" aria-label="link certifictes" class="nav__link">
+                <i class="bx bx-award nav__icon"></i>Certificates
+              </a>
+            </li>
+            <!-- <li class="nav__item">
+              <a href="#references" class="nav__link">
+                <i class="bx bx-link-external nav__icon"></i>References
+              </a>
+            </li> -->
+          </ul>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+    <main class="l-main bd-container">
+      <!-- All elements within this div, is generated in PDF -->
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <!-- Home -->
+          <section class="home" id="home">
+            <div class="home__container section bd-grid">
+              <div class="home__data bd-grid">
+                <img src="./assets/img/3.JPG" alt="photo" class="home__img" >
+                <h1 class="home__title">Nadia <b>Olerinskaia</b></h1>
+                <h3 class="home__profession">Junior Frontend Developer</h3>
+                <!-- Button to download your CV saved in the PDF folder. Available for mobile -->
+                <div>
+                  <a
+                    aria-label="link download pdf"
+                    href="./assets/pdf/ResumeCv.pdf"
+                    class="home__button-movil"
+                    >Download</a
+                  >
+                </div>
+              </div>
+              <div class="home__address bd-grid">
+                <span class="home__information">
+                  <i class="bx bx-map home__icon"></i>
+                  <a aria-label="link address"
+                    href="https://goo.gl/maps/bQozdTouCaG2LApKA"
+                    target="_blank"
+                    class="social__link"
+                  >
+                    Saint-Petersburg</a
+                  >
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-envelope home__icon"></i>
+                  <a href="mailto:" aria-label="link my mail" target="_blank" class="social__link"
+                    >olerinskaia.work@gmail.com</a
+                  >
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-phone home__icon"></i>
+                  <a
+                    aria-label="link my phone"
+                    href="tel:+79516688122"
+                    target="_blank"
+                    class="social__link"
+                    >+79516688122</a
+                  >
+                </span>
+              </div>
+            </div>
+            <!-- Them change button -->
+            <i
+              class="bx bx-moon change-theme"
+              title="Theme"
+              id="theme-button"
+            ></i>
+            <!-- Button to download your CV saved in the PDF folder. Available for desktop -->
+            <i
+              class="bx bx-download generate-pdf"
+              title="Generate PDF"
+              id="resume-button"
+            ></i>
+          </section>
+          <!-- SOCIAL -->
+          <section class="social section">
+            <h2 class="section-title">SOCIAL</h2>
+            <div class="social__container bd-grid">
+              <a
+                aria-label="link social tlegram"
+                href="https://t.me/Olerinskaya"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-telegram social__icon"></i> @Olerinskaya
+              </a>
+              <a
+                aria-label="link social linkedin"
+                href="https://www.linkedin.com/in/nadezhda-olerinskaya-959468162/"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-linkedin-square social__icon"></i> Olerinskaya
+              </a>
+            </div>
+          </section>
+          <!-- EDUCATION -->
+          <section class="education section" id="education">
+            <h2 class="section-title">Education</h2>
+            <div class="education__container bd-grid">
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">Front-end developer</h3>
+                  <span class="education__studies">
+                    The Rolling Scopes School</span
+                  >
+                  <span class="education__year"> in process...</span>
+                </div>
+              </div>
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <!-- <span class="education__line"></span> -->
+                </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">Clinical psychologist</h3>
+                  <span class="education__studies">
+                    Saint Petersburg State University</span
+                  >
+                  <span class="education__year"> 2013</span>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- SKILLS -->
+          <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills__content bd-grid">
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Html
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Css
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Sass
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> JavaScript
+                </li>
+              </ul>
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span> React
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Git
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Figma
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Postman
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <div class="resume__right">
+          <!-- PROFILE -->
+          <section class="profile section" id="profile">
+            <h2 class="section-title">Profile</h2>
+            <p class="profile__description">
+              I am looking for positions in front-end development. seeking a
+              promising company in which I can grow up to highly qualified
+              specialist. Currently active I study and develop in this
+              direction.
+            </p>
+          </section>
+          <!-- EXPERIENCE -->
+          <section class="experience section" id="experience">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience__container bd-grid">
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Self-employed</h3>
+                  <span class="experience__company">in process... </span>
+                  <p class="experience__description">
+                    working and learning JavaScript/Front-end
+                  </p>
+                </div>
+              </div>
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <!-- <span class="experience__line"></span> -->
+                </div>
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Software tester</h3>
+                  <span class="experience__company"
+                    >From 2020 to 2021 | self employment</span
+                  >
+                  <p class="experience__description">
+                    testing web applications
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- CERTIFICATES -->
+          <section class="certificate section" id="certificates">
+            <h2 class="section-title">Certificates</h2>
+            <div class="certificate__container bd-grid">
+              <div class="certificate__content">
+                <h3 class="certificate__title">
+                  <a
+                     aria-label="link certificate rs school"
+                    class="certificate__title"
+                    target="_blank"
+                    href="https://app.rs.school/certificate/xsjf2q0u"
+                    >The Rolling Scope School JS/FE PRE-SCHOOL (JAVASCRIPT)</a
+                  >
+                </h3>
+                <p class="certificate__description"></p>
+                <h3 class="certificate__title">
+                  Web programmer from 0 to first projects
+                </h3>
+                <p class="certificate__description"></p>
+              </div>
+            </div>
+          </section>
+          <!-- REFERENCES -->
+          <!-- LANGUAGES -->
+          <section class="languages section">
+            <h2 class="section-title">Languages</h2>
+            <div class="languages__container bd-grid">
+              <ul class="languages__content">
+                <li class="languages__name">
+                  <span class="languages__circle"></span>Russian - native
+                  speaker
+                </li>
+                <li class="languages__name">
+                  <span class="languages__circle"></span>English - A2 (B1 in
+                  process..)
+                </li>
+              </ul>
+            </div>
+          </section>
+          <!-- CODE EXAMPLE -->
+          <section class="code section" id="code">
+            <h2 class="section-title">Code example</h2>
+            <div class="code__container bd-grid">
+              <div class="code__content">
+                <pre>
+function getSumOfDigits(number) {
+  let sumNumbers = 0;
+  let numberString = String(number);
+  for (i = 0; i &lt; numberString.length; i++) {
+    sumNumbers += +numberString[i];
+    }
+  while (sumNumbers &gt; 9) {
+    sumNumbers = getSumOfDigits(sumNumbers);
+  }
+  return sumNumbers;
+}
+                  </pre
+                >
+              </div>
+            </div>
+          </section>
+          <!-- INTERESTS -->
+          <section class="interests section">
+            <h2 class="section-title">Interests</h2>
+            <div class="interests__conteiner bd-grid">
+              <div class="interests__content">
+                <i class="bx bxs-tree interests__icon"></i>
+                <span class="interest__name">Walking</span>
+              </div>
+              <div class="interests__content">
+                <i class="bx bxs-joystick interests__icon"></i>
+                <span class="interest__name">Gaming</span>
+              </div>
+              <div class="interests__content">
+                <i class="bx bxs-book-alt interests__icon"></i>
+                <span class="interest__name">Reading</span>
+              </div>
+              <div class="interests__content">
+                <i class="bx bx-trip interests__icon"></i>
+                <span class="interest__name">Electric unicycle</span>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <!-- SCROLL TOP -->
+    <!-- FOOTER -->
+    <footer class="footer section bd-container">
+      <div class="footer__container bd-grid">
+        <ul class="footer__links">
+          <li class="footer__link">
+            <a
+               aria-label="link github"
+              href="https://github.com/Olerinskaia?tab=repositories"
+              target="_blank"
+              ><img
+                class="footer__logo-git"
+                src="./assets/img/github.svg"
+                alt="link to github"
+            ></a>
+          </li>
+          <li class="footer__link">Created in 2022</li>
+          <li class="footer__link">
+            <a aria-label="link rs shcool" href="https://rs.school/js/" target="_blank"
+              ><img
+                class="footer__logo-rs"
+                src="./assets/img/rs_school_js.svg"
+                alt="link to rs school"
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <a href="#" aria-label="scrolltop" class="scrolltop" id="scroll-top">
+      <i class="bx bx-chevron-up scrolltop__icon"></i>
+    </a>
+    <!-- HTML2PDF -->
+    <script src="./assets/js/html2pdf.bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
